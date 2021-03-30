@@ -7,7 +7,7 @@ metadata:
     - data 
     - "event-streaming"
     - streaming
-    - CorpDB
+    - "corp-db"
     - database
   annotations:
     github.com/project-slug: dstrivelli/data-sync-service
