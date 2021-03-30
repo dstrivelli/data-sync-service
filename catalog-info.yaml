@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "data-synchronization-service"
+  description: "The Data Synchronization Service aims to be the central connection between the BIP platform and Corporate Database change events. Applications can subscribe to event streams offered by this service."
+  annotations:
+    github.com/project-slug: dstrivelli/data-sync-service
+    backstage.io/techdocs-ref: url:https://github.com/dstrivelli/data-sync-service
+spec:
+  type: service
+  lifecycle: production
+  owner: "applications"
+  providesApis:
+    - data-synchronization-service

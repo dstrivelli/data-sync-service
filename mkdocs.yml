@@ -1,0 +1,8 @@
+site_name: "data-synchronization-service"
+site_description: "The Data Synchronization Service aims to be the central connection between the BIP platform and Corporate Database change events. Applications can subscribe to event streams offered by this service."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
